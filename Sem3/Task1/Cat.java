@@ -3,6 +3,7 @@ package Sem3.Task1;
 public class Cat extends Animal {
     private static int catCounter;
 
+
     public static int getCatCounter() {
         return catCounter;
     }
