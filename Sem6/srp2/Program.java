@@ -6,10 +6,10 @@ public class Program {
      * @param args
      */
     public static void main(String[] args) {
-        Order order = new Order();
-        order.inputFromConsole();
-        SaveToFile saveToFile = new SaveToFile(order);
-        saveToFile.saveToJson();
+        OrderFactory orderFactory = new OrderFactory();
+        orderFactory.createOrder();
+//        SaveToFile saveToFile = new SaveToFile(orderFactory);
+//        saveToFile.saveToJson();
 //        order.saveToJson();
     }
 }
